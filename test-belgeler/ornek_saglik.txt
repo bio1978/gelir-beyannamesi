@@ -1,0 +1,16 @@
+SAĞLIK HİZMETİ FATURASI
+=======================
+
+Hasta: Ahmet Yılmaz
+Hastane: Acibadem Hastanesi
+Tarih: 2024-02-15
+
+Muayene Ücreti: 500 TL
+İlaç Maliyeti: 800 TL
+Tetkik Ücreti: 1.200 TL
+
+TOPLAM: 2.500 TL
+
+Ödeme Tarihi: 2024-02-15
+Ödeme Şekli: Kredi Kartı
+Recete No: RX-2024-001

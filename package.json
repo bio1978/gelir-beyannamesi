@@ -1,0 +1,17 @@
+{
+  "name": "gelir-beyannamesi-app",
+  "version": "1.0.0",
+  "description": "Gelir Beyannamesi Hazırlama Uygulaması",
+  "type": "module",
+  "scripts": {
+    "dev": "npm run dev --workspace=frontend & npm run dev --workspace=backend",
+    "build": "npm run build --workspace=frontend && npm run build --workspace=backend"
+  },
+  "workspaces": [
+    "frontend",
+    "backend"
+  ],
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  }
+}

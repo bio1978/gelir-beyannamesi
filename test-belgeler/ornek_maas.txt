@@ -1,0 +1,13 @@
+MAAS BORDROSU
+=============
+
+Ay: Mart 2024
+Çalışan: Ahmet Yılmaz
+Çalıştığı Şirket: ABC Teknoloji A.Ş.
+
+Brüt Maaş: 50.000 TL
+Vergi Kesintisi: 5.000 TL
+SGK Kesintisi: 4.500 TL
+Net Maaş: 40.500 TL
+
+Ödeme Tarihi: 2024-03-31
