@@ -98,7 +98,7 @@ function App() {
     // Dosya olarak indir
     const element = document.createElement('a')
     element.setAttribute('href', 'data:text/csv;charset=utf-8,%EF%BB%BF' + encodeURIComponent(csv))
-    element.setAttribute('download', 'gib-belgeler.xlsx')
+    element.setAttribute('download', 'gib-belgeler.csv')
     element.style.display = 'none'
     document.body.appendChild(element)
     element.click()
