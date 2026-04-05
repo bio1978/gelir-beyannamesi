@@ -26,7 +26,7 @@ function App() {
         formData.append('documents', file)
       })
 
-      const response = await fetch('http://localhost:5000/api/analyze-documents', {
+      const response = await fetch('https://gelir-beyannamesi.onrender.com/api/analyze-documents', {
         method: 'POST',
         body: formData
       })
@@ -46,7 +46,7 @@ function App() {
 
   const downloadDeclaration = async () => {
     try {
-      const response = await fetch('http://localhost:5000/api/generate-declaration', {
+      const response = await fetch('https://gelir-beyannamesi.onrender.com/api/generate-declaration', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify(results)
